@@ -17,6 +17,8 @@ l2 = [1, 2, 6, 4, 3,  8]
 [0, 1, 2, 2, 2,  3]
 '''
 
+import time
+
 
 def count_common_in_prefix(l1: list[int], l2: list[int]) -> list[int]:
     h = [] # вывод функции
@@ -34,7 +36,7 @@ def count_common_in_prefix(l1: list[int], l2: list[int]) -> list[int]:
         else:
             h.append(count)
         index += 1
-    return h
+    return h, 'time'
 
 
 if __name__ == '__main__':
@@ -43,3 +45,4 @@ if __name__ == '__main__':
     # l1 = [1, 1, 2, 2]
     # l2 = [0, 0, 1, 1]
     print(count_common_in_prefix(l1, l2))
+    

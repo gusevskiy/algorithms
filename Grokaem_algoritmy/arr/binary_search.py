@@ -27,7 +27,7 @@ def binary_search(ar, item):
 
 
 if __name__ == '__main__':
-    print(binary_search(str_arr, 'tyu'))
+    print(binary_search(str_arr, 'Adrian'))
     print(len(str_arr))
 
 
