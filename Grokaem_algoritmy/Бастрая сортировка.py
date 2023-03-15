@@ -24,14 +24,14 @@ def max_num_in_list(ar):
 
 
 
-    # Сортировка массива
+# Сортировка массива
 def quicksort(ar):
     if len(ar) < 2:
         return ar
     else:
         pivot = ar[0]
         less = [i for i in ar[1:] if i <= pivot]
-        greater = [i for i in ar [1:] if i > pivot]
+        greater = [i for i in ar[1:] if i > pivot]
         return quicksort(less) + [pivot] + quicksort(greater)
 #print('быстрая сортировка массива ', quicksort(ar))
 
