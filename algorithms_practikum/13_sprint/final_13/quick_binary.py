@@ -1,7 +1,7 @@
-# import timeit
+#  быстрая сортировка и бинарный поиск, но
+#  индекс элемнта находит неправельно нужно
+#  индекс выводить из не отсортированого массива
 
-
-# code='''
 def qquicksort(ar):
     if len(ar) < 2:
         return ar
@@ -31,13 +31,3 @@ def broken_search(ar, item) -> int:
 if __name__ == '__main__':
     arr = [19, 21, 100, 101, 1, 4, 5, 7, 12]
     print(broken_search(arr, 5))
-
-
-
-# def test():
-#     arr = [19, 21, 100, 101, 1, 4, 5, 7, 12]
-#     assert broken_search(arr, 5) == 6
-
-
-# '''
-# print(timeit.timeit(code))
