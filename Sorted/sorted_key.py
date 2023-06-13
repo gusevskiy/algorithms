@@ -1,7 +1,7 @@
-digit_lengths = [4, 4, 3, 3, 6, 4, 5, 4, 6, 6] # длины слов «ноль», «один»,...
+digit_lengths = [4, 4, 3, 3, 6, 4, 5, 4, 6, 6]  # длины слов «ноль», «один»,...
 
 
-def card_strength(card): # ключ сравнения
+def card_strength(card):  # ключ сравнения
     return digit_lengths[card]
 
 
